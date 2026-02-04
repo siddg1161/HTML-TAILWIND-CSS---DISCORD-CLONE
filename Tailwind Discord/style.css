@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/* ===============================
+   Custom Local Font Imports
+   =============================== */
+
+/* Whitney */
+@font-face {
+  font-family: Whitney;
+  font-weight: 300;
+  src: url("fonts/Whitney/Whitney-300.woff") format("woff");
+}
+@font-face {
+  font-family: Whitney;
+  font-weight: 400;
+  src: url("fonts/Whitney/Whitney-400.woff") format("woff");
+}
+@font-face {
+  font-family: Whitney;
+  font-weight: 500;
+  src: url("fonts/Whitney/Whitney-500.woff") format("woff");
+}
+@font-face {
+  font-family: Whitney;
+  font-weight: 600;
+  src: url("fonts/Whitney/Whitney-600.woff") format("woff");
+}
+@font-face {
+  font-family: Whitney;
+  font-weight: 700;
+  src: url("fonts/Whitney/Whitney-700.woff") format("woff");
+}
+
+/* Ginto */
+@font-face {
+  font-family: Ginto;
+  font-weight: 300;
+  src: url("fonts/Ginto/Ginto-300.woff") format("woff");
+}
+@font-face {
+  font-family: Ginto;
+  font-weight: 400;
+  src: url("fonts/Ginto/Ginto-400.woff") format("woff");
+}
+@font-face {
+  font-family: Ginto;
+  font-weight: 500;
+  src: url("fonts/Ginto/Ginto-500.woff") format("woff");
+}
+@font-face {
+  font-family: Ginto;
+  font-weight: 600;
+  src: url("fonts/Ginto/Ginto-600.woff") format("woff");
+}
+@font-face {
+  font-family: Ginto;
+  font-weight: 700;
+  src: url("fonts/Ginto/Ginto-700.woff") format("woff");
+}
+
+/* Ginto Italic */
+@font-face {
+  font-family: Ginto;
+  font-weight: 400;
+  font-style: italic;
+  src: url("fonts/Ginto/Ginto-400-italic.woff") format("woff");
+}
+
+/* Ginto Nord */
+@font-face {
+  font-family: GintoNord;
+  font-weight: 500;
+  src: url("fonts/Ginto-Nord/Ginto-Nord-500.woff2") format("woff2"),
+       url("fonts/Ginto-Nord/Ginto-Nord-500.woff") format("woff");
+}
+@font-face {
+  font-family: GintoNord;
+  font-weight: 700;
+  src: url("fonts/Ginto-Nord/Ginto-Nord-700.woff2") format("woff2"),
+       url("fonts/Ginto-Nord/Ginto-Nord-700.woff") format("woff");
+}
+
+/* ggSans */
+@font-face {
+  font-family: "ggSans";
+  font-weight: 400;
+  src: url("fonts/gg-sans/ggsans-Normal.ttf");
+}
+@font-face {
+  font-family: "ggSans";
+  font-weight: 500;
+  src: url("fonts/gg-sans/ggsans-Medium.ttf");
+}
+@font-face {
+  font-family: "ggSans";
+  font-weight: 600;
+  src: url("fonts/gg-sans/ggsans-Semibold.ttf");
+}
+@font-face {
+  font-family: "ggSans";
+  font-weight: 700;
+  src: url("fonts/gg-sans/ggsans-Bold.ttf");
+}
+
+/* ===============================
+   Tailwind v4 Theme Definition
+   =============================== */
+@theme {
+  /* 🎨 Color Palette */
+  --color-deepBlue: #02042a;
+  --color-lightBlue: #2b84ea;
+  --color-lightBlue300: #4b94ed;
+  --color-lightBlue500: #0b72e7;
+  --color-greenLight: #61cea6;
+  --color-grayText: #818597;
+  --color-lightGray: #e2e2e2;
+  --color-grayBlue: #344a6c;
+  --color-deepBlueHead: #162f56;
+  --color-gray2: #525a76;
+
+  /* 🅰️ Font Families */
+  --font-whitney: Whitney, sans-serif;
+  --font-ginto: Ginto, sans-serif;
+  --font-gintoNord: GintoNord, sans-serif;
+  --font-ggSans: "ggSans", sans-serif;
+}
